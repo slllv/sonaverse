@@ -1,0 +1,39 @@
+<!doctype html lang="en">
+<html>
+	<head>
+		<title>Character</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>	
+	</head>
+	
+	<body>
+		<div class="navbar">
+			<a href="">Home</a>
+			<a href="">Creators</a>
+		</div>
+<br><br>
+
+
+		<div class="center">
+			<div class="propic"><img>Empty</div>
+		
+			<h1 class="title">GRIS</h1>
+			
+				<ul id="tags">
+			<li> <p>Creator:</p> <a class="taglink" href="">Name</a> </li>
+			<li> <p>Class:</p> <a class="taglink">Model</a> </li>
+		</ul>
+		
+		</div>
+		<br>
+		
+	
+		<h4 style="margin-left:10px;">Description</h4>
+		<p>Lorem ipsum dolor sit amet. Ex error magnam qui voluptatem explicabo ut omnis velit et vero sint aut voluptatibus facere? Eum expedita nemo ab velit eligendi aut obcaecati doloremque qui totam repellat ut assumenda rerum quo illum molestias. Ut autem deserunt ad odio alias et accusantium ullam ea expedita voluptas sed quia excepturi et error maiores. Ut dolor quibusdam ut debitis error hic temporibus sint non dignissimos vero vel sunt possimus nam magni commodi.</p>
+		<br><br>
+	</body>
+	
+</html>
