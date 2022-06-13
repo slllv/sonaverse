@@ -1,0 +1,243 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+section,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'],
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding:0;
+  list-style-type: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html{
+  scroll-behavior: smooth !important;
+}
+
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  overflow-x: hidden;
+  animation: fadeInAnimation ease .5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  background-color: #f0f2f6;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+/* CSS reset */
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+/* styles start here */
+
+header {
+	width:100%;
+	height: 100%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	flex-direction:column;
+	background-color:white;
+	 overflow: hidden;
+}
+
+.title {
+	font-size:35px;
+	background:url(https://64.media.tumblr.com/2ea356fe1419a7e7d10c4ab1eb4ff336/f68df013c46c4b7d-dd/s500x750/7691e4318d1fca7ab2921024bd813825ac0a5cf2.gifv);
+	background-size: 300px 300px;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	margin:auto;
+}
+
+.center{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	flex-direction:column;
+}
+
+.arrow {
+ width: 50px;
+ height:50px;
+ padding-top:60px;
+}
+
+.top{
+	transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+	
+}
+
+.footer{
+	width:50px;
+	margin:auto;
+}
+
+.navbar{
+	display: flex;
+	justify-content:space-around;
+	text-align:center;
+	align-items:center;
+	flex-direction:row;
+	
+	width:100%;
+	height:10%;
+	padding:0;
+	margin:0;
+	
+}
+
+.navbar a{
+margin:20px;
+	
+	
+}
+
+p{
+	margin:10px;
+	
+}
+
+h1{
+	margin:10px;
+}
+
+#characters li{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background-color:black;
+	color:white;
+	width:45vw;
+	height:45vw;
+	text-align:center;
+	
+	margin: 0;
+	padding: 0;
+	border-radius: 100%;
+	transition: all 0.8s ease 0s;	
+}
+
+#archive li{
+	
+	margin-left:15px;
+}
+
+#characters {
+	display: flex;
+	padding: 0;
+	height: 280vw;
+	
+	
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.propic {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	border-radius: 100%;
+	
+	background-color:black;
+	color:white;
+	width:50vw;
+	height:50vw;
+	text-align:center;
+}
+
+/*featured slider*/
+.slideshow-container {
+	width:100%;
+	height:auto;
+	position:relative;
+}
+
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+@keyframes fadeInAnimation {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
