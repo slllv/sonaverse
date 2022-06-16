@@ -63,7 +63,7 @@ a:not([class]) {
 img,
 picture {
   max-width: 100%;
-  object-fit:contain;
+  
 }
 
 /* Inherit fonts for inputs and buttons */
