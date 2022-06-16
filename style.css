@@ -63,9 +63,8 @@ a:not([class]) {
 img,
 picture {
   max-width: 100%;
-  display: block;
+  display: inline-block;
   object-fit:contain;
-  z-index:-1;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -171,7 +170,7 @@ h1{
 	transition: all 0.8s ease 0s;	
 }
 
-#characters a{
+li img{
 border-radius: 100%;
 }
 
